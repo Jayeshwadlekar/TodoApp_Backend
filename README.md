@@ -2,7 +2,7 @@
 
 This is a simple To-Do List API  where users can create, read, update, and delete tasks in a MongoDB database.
 
-##Features
+## Features
 
 Add tasks
 
@@ -13,18 +13,18 @@ Edit a task
 Delete a task
 
 
-##Installation and Setup
+## Installation and Setup
 
-###1. Clone the Repository
+### 1. Clone the Repository
 
 git clone https://github.com/ayeshwadlekar/TodoApp_Backend.git
 cd todo-app
 
-###2. Install Dependencies
+### 2. Install Dependencies
 
 npm install
 
-###3. Set Up Environment Variables
+### 3. Set Up Environment Variables
 
 Create a .env file in the root directory and add the following:
 
@@ -33,15 +33,15 @@ PORT=5000
 
 Replace MONGO_URI with your local MongoDB database string.
 
-###4. Start the Server
+### 4. Start the Server
 
 npm start
 
-##API Endpoints
+## API Endpoints
 
 
 
 
-Testing
+## Testing
 
 Use Postman to test the API endpoints.
