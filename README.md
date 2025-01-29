@@ -17,12 +17,13 @@ Delete a task
 
 ### 1. Clone the Repository
 
-git clone https://github.com/ayeshwadlekar/TodoApp_Backend.git
+git clone https://github.com/Jayeshwadlekar/TodoApp_Backend.git
+
 cd todo-app
 
 ### 2. Install Dependencies
 
-npm install
+npm install express mongoose cors dotenv nodemon
 
 ### 3. Set Up Environment Variables
 
