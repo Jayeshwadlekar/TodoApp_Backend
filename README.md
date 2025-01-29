@@ -49,9 +49,9 @@ Use Postman to test the API endpoints.
 
 **POST**   |  http://localhost:5000/api/task      |   Create a new task
 
-**PUT**   |   http://localhost:5000/api/task/<id>  |  Update a task (Replace <id> with task _id)
+**PUT**   |   http://localhost:5000/api/task/$id  |  Update a task (Replace $id with task _id)
 
-**DELETE** |  http://localhost:5000/api/task/<id>  |  Delete a task (Replace <id> with task _id)
+**DELETE** |  http://localhost:5000/api/task/$id  |  Delete a task (Replace $id with task _id)
 
 
 ### Example JSON Body for POST Request (Create a Task)
