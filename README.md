@@ -32,7 +32,7 @@ Create a .env file in the root directory and add the following:
 MONGO_URI=mongodb://localhost:27017/todoDB
 PORT=5000
 
-Replace MONGO_URI with your local MongoDB database string.
+Replace MONGO_URI with your local MongoDB database connection string.
 
 ### 4. Start the Server
 
