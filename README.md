@@ -39,6 +39,11 @@ npm start
 
 ## API Endpoints
 
+### Method    Endpoint    Description
+GET      http://localhost:5000/api/tasks        Fetch all tasks
+POST     http://localhost:5000/api/task         Create a new task
+PUT      http://localhost:5000/api/task/<id>    Update a task (Replace <id> with task _id)
+DELETE   http://localhost:5000/api/task/<id>    Delete a task (Replace <id> with task _id)
 
 
 
