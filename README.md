@@ -54,3 +54,26 @@ Use Postman to test the API endpoints.
 **DELETE** |  http://localhost:5000/api/task/<id>  |  Delete a task (Replace <id> with task _id)
 
 
+### Example JSON Body for POST Request (Create a Task)
+
+> {
+
+>   "title": "Learn Node.js",
+  
+>   "description": "Complete Node.js tutorial",
+  
+>   "completed": false
+  
+> }
+
+### Example JSON Body for PUT Request (Update a Task)
+
+> {
+
+>   "title": "Learn Express.js",
+  
+>   "description": "Update Express.js tutorial",
+  
+>   "completed": true
+  
+> }
