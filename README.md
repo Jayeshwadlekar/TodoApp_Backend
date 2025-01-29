@@ -38,6 +38,10 @@ Replace MONGO_URI with your local MongoDB database connection string.
 
 npm start
 
+### 5. Testing
+
+Use Postman to test the API endpoints.
+
 ## API Endpoints
 
 ### Method  |  Endpoint  |  Description
@@ -50,7 +54,3 @@ npm start
 **DELETE** |  http://localhost:5000/api/task/<id>  |  Delete a task (Replace <id> with task _id)
 
 
-
-## Testing
-
-Use Postman to test the API endpoints.
