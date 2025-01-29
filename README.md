@@ -57,15 +57,14 @@ Use Postman to test the API endpoints.
 ### Example JSON Body for POST Request (Create a Task)
 
 > {\
->   "title": "Learn Node.js",\ 
->   "description": "Complete Node.js tutorial",\  
->   "completed": false\
+>   "title": "Finish homework",\
+>   "description": "Complete the math homework and submit it"\
 > }
 
 ### Example JSON Body for PUT Request (Update a Task)
 
 > {\
->   "title": "Learn Express.js",\  
->   "description": "Update Express.js tutorial",\  
->   "completed": true\ 
+>   "title": "Finish homework",\
+>   "description": "Complete math & science homework and submit it",\
+>   "completed": true\
 > }
